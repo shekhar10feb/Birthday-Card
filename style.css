@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+#id1 img{
+  width: 940px;
+  height: 550px;
+}
+
+#id2 img {
+  position: absolute;
+  top: 22%;
+  left: 7.8%;
+  width: 150px;
+  height: 140px;
+  border: 2px solid gray;
+  border-radius: 6%;
+}
+
+#id3 {
+  position: absolute;
+  top: 47%;
+  left: 8%;
+  width: 160px;
+  height: 248px;
+/*   border: 3px solid gray; */
+  /*border-radius: 5px; */
+}
+
+#id3 p{
+  /* color: #05fab8; */
+  color:  #c6e7c7;
+  font-size: 110%;
+  font-family: 'Nerko One', cursive;
+}
+
+#gsamaaj{
+  position: absolute;
+  top: 88%;
+  left: 48%;
+}
+
+#id4{
+  position: absolute;
+  top: 12%;
+  left: 38%;
+  width:300px;
+  height: 200px;
+  font-size: 380%;
+  transform: rotate(-6deg);
+}
+#id4 p{
+  font-family: 'Nerko One', cursive;
+  font-weight: bold;
+  text-align: center;
+/*   border: 2px solid black; */
+}
+
+#id5{
+  position: absolute;
+  top: 88%;
+  right: 3%;
+}
+
+#id5 .play {
+  padding: 10px 18px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+}
+
+.play:hover {background-color: #3e8e41}
+
+.play:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media all and (min-width: 1350px) {
+  #id1 img {
+    width: 1350px;
+    height: 550px;
+  }
+  
+  #id2 img {
+    top: 18%;
+    left: 9.8%;
+    width: 165px;
+    height: 155px;
+    border: 2px solid gray;
+    border-radius: 6%;
+ }
+  
+  #id3{
+    left: 10%;
+    top: 41%;
+    width: 171px;
+    height: 248px;
+  }
+  
+  #id4{
+    top: 8%;
+    left: 42%;
+    width: 300px;
+    height: 200px;
+    font-size: 400%;
+  }
+  
+  #gsamaaj{
+    top: 79%;
+  }
+  
+  #id5{
+    top: 73%;
+    right: 4%;
+  }
+  
+  #id5 .play{
+    padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  
+}
+
+@media all and (max-width: 420px){
+  #id1 img {
+    width: 410px;
+    height: 230px;
+  }
+  
+  #id2 img{
+    width: 65px;
+    height: 33px;
+    top: 24%;
+    left: 9%;
+  }
+  
+  #id3{
+    top: 40%;
+    left: 9%;
+    width: 82px;
+    height: 200px;
+  }
+  
+  #id3 p{
+    font-size: 56%;
+  }
+  
+  #gsamaaj{
+    top: 55%;
+  }
+  
+  #id4{
+    top: 27%;
+    left: 35%;
+    width: 180px;
+    height: 150px;
+    font-size: 140%;
+  }
+  
+  #id5{
+    top: 82%;
+    right: 4%;
+  }
+  
+  #id5 .play{
+    padding: 7px 10px;
+    font-size: 7px;
+    border-radius: 6px;
+  }
+}
